@@ -22,5 +22,4 @@
 - Grant agreements: AI4SWEng 101189908, ASTIR 101189679, MOSAICO 101189664, FAITH 101135932.
 
 ## Author order
-Andrea Rosani (first) · Atta Badii · Ali Atalay · Simos Gerasimou · Jean-Marie Mottu · Giuseppe Di Fatta (last).
-Middle authors follow the order in the proceedings' organisation page — adjust if agreed otherwise.
+Andrea Rosani (first) · Jean-Marie Mottu · Simos Gerasimou · Atta Badii · Ali Atalay · Giuseppe Di Fatta (last). Agreed 20 Oct 2026.
