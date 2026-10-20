@@ -1,0 +1,6 @@
+% Shared macros (keep independent of the document class).
+\newcommand{\agdev}{AgenticDev~2026}
+% Visible drafting notes; set \drafttrue/\draftfalse to show/hide.
+\newif\ifdraft \drafttrue
+\newcommand{\todo}[1]{\ifdraft{\color{red}\textbf{[TODO:} #1\textbf{]}}\fi}
+\newcommand{\note}[2]{\ifdraft{\color{blue}\textbf{[#1:} #2\textbf{]}}\fi}
