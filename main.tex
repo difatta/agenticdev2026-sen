@@ -1,52 +1,65 @@
 %% AgenticDev 2026 -- workshop summary for ACM SIGSOFT Software Engineering Notes (SEN)
-%%
-%% TEMPORARY PREAMBLE. SEN requires its own class, acm_sen_article.cls
-%% (https://www2.sigsoft.org/sen/guideline/). Until the official class and
-%% example are added to the repository, this file builds with a neutral
-%% two-column article layout so the content can be drafted. Only the
-%% preamble and \maketitle block below will change when we switch.
-\documentclass[10pt,twocolumn]{article}
+%% Template: acm_sen_article.cls (https://www2.sigsoft.org/sen/guideline/)
+\documentclass{acm_sen_article}
 
-\usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
-\usepackage[british]{babel}
-\usepackage{mathptmx}
-\usepackage[margin=0.75in]{geometry}
 \usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage{xcolor}
-\usepackage[numbers,sort&compress]{natbib}
+\usepackage{url}
 \usepackage[hidelinks]{hyperref}
 
 \input{macros}
 
+\begin{document}
+
 \title{Agentic AI for Next-Generation Software Development:\\
   Summary of the First AgenticDev Workshop (AgenticDev 2026)}
 
-\author{%
-  Andrea Rosani\\ Free University of Bozen-Bolzano, Italy\\ \texttt{andrea.rosani@unibz.it}
-  \and
-  Atta Badii\\ University of Reading, UK\\ \texttt{sis13i@reading.ac.uk}
-  \and
-  Ali Atalay\\ AI4SEC O\"U, Estonia\\ \texttt{ali.atalay@ai4sec.eu}
-  \and
-  Simos Gerasimou\\ Cyprus University of Technology, Cyprus\\ \texttt{simos.gerasimou@cut.ac.cy}
-  \and
-  Jean-Marie Mottu\\ Universit\'e de Nantes -- LS2N -- IMT Atlantique, France\\ \texttt{jean-marie.mottu@univ-nantes.fr}
-  \and
-  Giuseppe Di Fatta\\ Free University of Bozen-Bolzano, Italy\\ \texttt{giuseppe.difatta@unibz.it}
+\numberofauthors{6}
+\author{
+\alignauthor
+Andrea Rosani\\
+  \affaddr{Free University of Bozen-Bolzano}\\
+  \affaddr{Bolzano, Italy}\\
+  \email{andrea.rosani@unibz.it}
+\alignauthor
+Atta Badii\\
+  \affaddr{University of Reading}\\
+  \affaddr{Reading, UK}\\
+  \email{sis13i@reading.ac.uk}
+\alignauthor
+Ali Atalay\\
+  \affaddr{AI4SEC O\"U}\\
+  \affaddr{Estonia}\\
+  \email{ali.atalay@ai4sec.eu}
+\and
+\alignauthor
+Simos Gerasimou\\
+  \affaddr{Cyprus University of Technology}\\
+  \affaddr{Cyprus}\\
+  \email{simos.gerasimou@cut.ac.cy}
+\alignauthor
+Jean-Marie Mottu\\
+  \affaddr{Universit\'e de Nantes -- LS2N}\\
+  \affaddr{IMT Atlantique, France}\\
+  \email{jean-marie.mottu@\\univ-nantes.fr}
+\alignauthor
+Giuseppe Di Fatta\\
+  \affaddr{Free University of Bozen-Bolzano}\\
+  \affaddr{Bolzano, Italy}\\
+  \email{giuseppe.difatta@unibz.it}
 }
-\date{}
 
-\begin{document}
 \maketitle
 
 \begin{abstract}
 \input{sections/00-abstract}
 \end{abstract}
 
-\noindent\textbf{Keywords:} agentic AI, large language models, AI-assisted software engineering, multi-agent systems, coding agents, human--AI collaboration
-% TODO: add ACM CCS concepts (https://dl.acm.org/ccs), as SEN guidelines recommend.
+% SEN recommends ACM CCS terms (https://dl.acm.org/ccs) as keywords.
+\keywords{Agentic AI, large language models, AI-assisted software engineering, multi-agent systems, coding agents, human--AI collaboration}
+\todo{Add ACM CCS concepts.}
 
 \input{sections/01-introduction}
 \input{sections/02-workshop}
@@ -59,7 +72,7 @@
 \section*{Acknowledgements}
 \input{sections/08-acknowledgements}
 
-\bibliographystyle{abbrvnat}
+\bibliographystyle{acm}
 \bibliography{references}
 
 \end{document}

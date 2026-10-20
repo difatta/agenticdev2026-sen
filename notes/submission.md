@@ -5,7 +5,7 @@
 - **Send to:** editors_SIGSOFT@acm.org, in PDF, Word or LaTeX. State the workshop acronym and full name:
   *AgenticDev — 1st International Workshop on Agentic AI for Next-Generation Software Development*.
 - **Guidelines:** https://www2.sigsoft.org/sen/guideline/ · organiser instructions: https://www2.sigsoft.org/sen/instructions/
-- **Template:** SEN LaTeX class `acm_sen_article.cls` + `latex-example.zip` (both from the guideline page). Not yet in this repo — `main.tex` uses a temporary preamble.
+- **Template:** SEN LaTeX class `acm_sen_article.cls` + `latex-example.zip` (both from the guideline page). The class is in the repo root; bibliography style `acm`.
 - **Required content (summaries):** title and authors (affiliations, emails); abstract (printed in SEN hardcopy); full summary (ACM DL).
 - **Other requirements:** source files + PDF with all fonts embedded; keywords ideally from ACM CCS; SEN is edited, not refereed; authors keep copyright, grant ACM non-exclusive rights; any copied text beyond a few words must be quoted and cited.
 - **Length:** no explicit limit for summaries (columns are normally ≤ 4 pages).

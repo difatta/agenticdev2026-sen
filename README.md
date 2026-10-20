@@ -5,7 +5,8 @@ Summary of the *1st International Workshop on Agentic AI for Next-Generation Sof
 ## Structure
 | Path | Contents |
 |---|---|
-| `main.tex` | Preamble, title, authors; includes the sections |
+| `main.tex` | SEN class, title, authors; includes the sections |
+| `acm_sen_article.cls` | Official SEN LaTeX class |
 | `sections/` | One file per section (abstract → acknowledgements) |
 | `references.bib` | All 26 AgenticDev papers (`agdev26:<first-author>`), then state-of-the-art references |
 | `macros.tex` | `\todo{}` / `\note{who}{}` drafting macros (`\draftfalse` hides them) |
@@ -18,7 +19,7 @@ make clean
 ```
 
 ## Status
-- [ ] Replace the temporary preamble with the official SEN class (`acm_sen_article.cls`)
+- [x] Official SEN class (`acm_sen_article.cls`, from https://www2.sigsoft.org/sen/guideline/)
 - [ ] State-of-the-art review
 - [ ] Group workshop contributions into research directions
 - [ ] Panel summary, future directions, conclusions
