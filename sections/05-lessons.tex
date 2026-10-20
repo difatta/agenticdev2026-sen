@@ -1,0 +1,14 @@
+\section{Lessons and Open Challenges}
+\label{sec:lessons}
+
+Five themes cut across the papers and the panel. We present them as lessons and as challenges for future work.
+
+\textbf{(1) The harness is part of the system.} Explicit stages, typed contracts and deterministic operators mattered more than further iterations of a free-form loop~\cite{agdev26:dente,agdev26:alawad,agdev26:gao,agdev26:spiridonov,agdev26:osmanoglu}. \emph{Open challenges:} deriving the stage structure for each task rather than fixing it in advance, and automatically searching for workflows that make good use of verifiers.
+
+\textbf{(2) Structure makes small and local models viable.} Privacy, intellectual property and cost often rule out remote frontier models~\cite{agdev26:le,agdev26:garciadominguez}. Decomposition~\cite{agdev26:dente}, cheaper explorers~\cite{agdev26:alawad}, inherited context~\cite{agdev26:kerbel} and generated domain-specific agents~\cite{agdev26:garciadominguez} let smaller models contribute. \emph{Open challenge:} principled allocation of models to stages under quality and cost constraints.
+
+\textbf{(3) Outputs need provenance and bounded authority.} Evidence should be bound to the code state it describes~\cite{agdev26:gao}, its source should remain visible~\cite{agdev26:le,agdev26:chen}, and a model should not have the authority to close another component's finding~\cite{agdev26:le}, a principle echoed by ASTIR's view that agents recommend and engineers decide. \emph{Open challenge:} preserving provenance and accountability across multi-agent hand-offs.
+
+\textbf{(4) Evaluation must catch up with agents.} Benchmarks should follow software across its lifecycle~\cite{agdev26:jureczka}, cost should be measured on realistic multi-turn sessions with a correctness gate~\cite{agdev26:zergetaev}, and claims need reporting protocols, pre-registration and checks of run-to-run consistency~\cite{agdev26:khanna,agdev26:kerbel,agdev26:stengg}. \emph{Open challenge:} benchmarks for requirements, architecture and runtime assurance, which the panel identified as having no counterpart to SWE-bench.
+
+\textbf{(5) Multi-agent collaboration must earn its overhead.} Explicit models of roles, workflows and deployment make agent communities engineerable~\cite{agdev26:vu,agdev26:ait} and can carry human-centred values~\cite{agdev26:pesare}, but coordination failures and error propagation are well documented~\cite{cemri2025mast,kim2025scaling}. \emph{Open challenge:} systematic evidence of when specialised agents outperform a single strong agent with good tools, together with assessment frameworks that make their trustworthiness auditable.
