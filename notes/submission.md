@@ -14,7 +14,7 @@
 ## Workshop facts (from the proceedings front matter)
 - 12 October 2026, Munich, co-located with ASE 2026. Proceedings: ACM, ISBN 979-8-4007-2985-0.
 - Sponsors: ACM SIGSOFT, ACM SIGAI, IEEE CS.
-- Inspired by Horizon Europe projects AI4SWEng, ASTIR, MOSAICO (HIVEMIND, named in the foreword, deliberately left out of the summary).
+- Inspired by Horizon Europe projects AI4SWEng, ASTIR, MOSAICO (HIVEMIND is mentioned only as a member of the AGenSE Alliance, in the panel section; not acknowledged).
 - 84 submissions (47 long, 36 short, 1 demo); ≥ 2 reviews each.
 - 26 accepted (11 long, 8 short, 7 extended abstracts), acceptance rate 31%. The foreword's "25 / 6 extended abstracts" is a slip, confirmed against the programme.
 - Programme: panel 09:00–10:00; 15 papers in five sessions (code analysis, agentic coding, testing, repair, agentic orchestration); 7 posters; 4 accepted papers not presented in person.
