@@ -21,7 +21,7 @@ make clean
 ## Status
 - [x] Official SEN class (`acm_sen_article.cls`)
 - [x] Full first draft, 4 pages including references
-- [ ] Fill the red `\todo{}` items: programme committee, attendance, panel positions, HIVEMIND at the panel, next edition, funding projects per author
+- [ ] Fill the red `\todo{}` items: programme committee, attendance, panel positions, next edition, funding projects per author
 - [ ] ACM CCS concepts
 - [ ] Review by all organisers
 - [ ] Submit to editors_SIGSOFT@acm.org by 30 November 2026 (January 2027 issue)
