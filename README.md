@@ -7,7 +7,7 @@ Summary of the *1st International Workshop on Agentic AI for Next-Generation Sof
 |---|---|
 | `main.tex` | SEN class, title, authors; includes the sections |
 | `acm_sen_article.cls` | Official SEN LaTeX class |
-| `sections/` | Abstract, introduction, organisation, research directions, panel, lessons, next steps, acknowledgements |
+| `sections/` | Abstract, introduction, organisation, research directions, panel, lessons, concluding remarks, acknowledgements |
 | `references.bib` | All 26 AgenticDev papers (`agdev26:<first-author>`), then state-of-the-art references |
 | `macros.tex` | `\todo{}` / `\note{who}{}` drafting macros (`\draftfalse` hides them) |
 | `notes/` | Submission requirements; accepted papers with abstracts (working notes, not for the paper) |

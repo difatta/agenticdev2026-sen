@@ -23,3 +23,9 @@
 
 ## Author order
 Andrea Rosani (first) · Jean-Marie Mottu · Simos Gerasimou · Atta Badii · Ali Atalay · Giuseppe Di Fatta (last). Agreed 20 Oct 2026.
+
+## Decisions (20 Oct 2026)
+- No reference to a next edition.
+- Acknowledge AI4SWEng, ASTIR, MOSAICO, FAITH as listed; no per-author mapping.
+- HIVEMIND not represented at the panel; named only as an AGenSE Alliance member.
+- TPC: 31 members. Attendance: about 100 participants.
